@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "320787410109",
+    "firebase_url": "https://red-bew-crew.firebaseio.com",
+    "project_id": "red-bew-crew",
+    "storage_bucket": "red-bew-crew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320787410109:android:2536436ad2b50ed4d31bd4",
+        "android_client_info": {
+          "package_name": "com.example.APAC"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320787410109-pnf3742k5csq39pvv2a7dtq9l3u9tb32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqhdMrKHOKqB7kcY7Wj0_liZS6csCipsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320787410109-pnf3742k5csq39pvv2a7dtq9l3u9tb32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320787410109:android:ae0f9a0414b188f9d31bd4",
+        "android_client_info": {
+          "package_name": "com.example.Behind_APAC"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320787410109-pnf3742k5csq39pvv2a7dtq9l3u9tb32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqhdMrKHOKqB7kcY7Wj0_liZS6csCipsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320787410109-pnf3742k5csq39pvv2a7dtq9l3u9tb32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320787410109:android:e76a412765753cc3d31bd4",
+        "android_client_info": {
+          "package_name": "com.red.brew_crew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320787410109-pnf3742k5csq39pvv2a7dtq9l3u9tb32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqhdMrKHOKqB7kcY7Wj0_liZS6csCipsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320787410109-pnf3742k5csq39pvv2a7dtq9l3u9tb32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
