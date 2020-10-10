@@ -1,32 +1,18 @@
 import 'package:Behind_APAC/providers/userProvider.dart';
-import 'package:Behind_APAC/screens/Manage_admins.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'SignIn.dart';
 
-class Home extends StatefulWidget {
+class Admin_Manager extends StatefulWidget {
   @override
-  _HomeState createState() => _HomeState();
+  _Admin_ManagerState createState() => _Admin_ManagerState();
 }
 
-class _HomeState extends State<Home> {
+class _Admin_ManagerState extends State<Admin_Manager> {
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
-  // void initState() {
-  //   super.initState();
-  //   WidgetsBinding.instance.addPostFrameCallback((_) {
-  //     getUser();
-  //   });
-  // }
-
-  // void getUser() {
-  //   UserProvider _user = Provider.of<UserProvider>(context, listen: false);
-  //   print(_user.userData.ph);
-  // }
-
-  // sign out
   Future signOut() async {
     try {
       Provider.of<UserProvider>(context, listen: false).setUserData(null);
@@ -54,7 +40,7 @@ class _HomeState extends State<Home> {
               child: Row(
                 children: [
                   Text(
-                    'APAC',
+                    'Manage Administrators',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 25,
@@ -88,13 +74,7 @@ class _HomeState extends State<Home> {
                       'Manage Administrators',
                       style: TextStyle(color: Colors.black),
                     ),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => Admin_Manager()),
-                      );
-                    }),
+                    onPressed: () {}),
 
                 RaisedButton(
                     child: Text(
